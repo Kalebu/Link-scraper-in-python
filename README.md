@@ -41,7 +41,7 @@ Enter URL of the site : https://kalebujordan.com/
 
 Explore it 
 -----------
-Now keep explore it by testing it with various input picture to see what kinda of sound it produces 
+Now keep explore it by testing it with various input links to see what links it will scrap 
 
 Give it a star 
 --------------
