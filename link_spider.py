@@ -6,7 +6,9 @@ def extract_all_links(site):
     html = requests.get(site).text
     soup = BeautifulSoup(html, "html.parser").find_all("a")
     links = [link.get("href") for link in soup]
-    return links
+    for link in links:
+        print("=>",link," ")
+    return ""
 
 
 if __name__ == "__main__":
